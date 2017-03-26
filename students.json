@@ -1,0 +1,43 @@
+[{
+    "name": "Alex",
+    "lastname": "Grigoryev",
+    "gender": "male",
+    "skype": "answer_quick",
+    "phone": "38078527833",
+    "email": "answer_quick@hmail.com"
+}, {
+    "name": "Svetlana",
+    "lastname": "Ovcharenko",
+    "gender": "female",
+    "skype": "sweetie",
+    "phone": "38045785223",
+    "email": "sweetie@gmail.com"
+}, {
+    "name": "Elena",
+    "lastname": "Ryndina",
+    "gender": "female",
+    "skype": "smile",
+    "phone": "387575453",
+    "email": "smile@hmail.com"
+}, {
+    "name": "Vladimir",
+    "lastname": "Timofeev",
+    "gender": "male",
+    "skype": "vovanium",
+    "phone": "3805454533",
+    "email": "vovanium@gmail.com"
+}, {
+    "name": "Polina",
+    "lastname": "Zhylyaeva",
+    "gender": "female",
+    "skype": "candy_polya",
+    "phone": "38055454533",
+    "email": "candy_polya@hmail.com"
+}, {
+    "name": "Irina",
+    "lastname": "Ruban",
+    "gender": "female",
+    "skype": "dn100980rev",
+    "phone": "3805457233",
+    "email": "kitty@gmail.com"
+}]
