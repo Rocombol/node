@@ -4,40 +4,38 @@
 
      timeButton.addEventListener('click', time, false);
      dataButton.addEventListener('click', loadJSON, false);
-
-
+	 
      function time() {
          var xhr = new XMLHttpRequest();
 
          xhr.open('GET', 'fluffy', true);
 
-         xhr.onreadystatechange = function() {
+		 xhr.send();
+		 
+		 xhr.addEventListener('readystatechange', function(){
              if (xhr.readyState === 4 && xhr.status === 200) {
                  writeTime(xhr.responseText);
-             }
-         };
-         xhr.send();
-     }
-
+             }			 
+		 }, false);     
+     }	 
+	 
      function writeTime(text) {
          var div = document.querySelector('#log');
          div.innerHTML = text;
      }
 
      function loadJSON() {
-
          var xhr = new XMLHttpRequest();
 
          xhr.open('GET', 'json', true);
 
          xhr.send();
-
-         xhr.onreadystatechange = function() {
-
+		 
+		 xhr.addEventListener('readystatechange', function(){
              if (xhr.readyState === 4 && xhr.status === 200) {
-                 showJSON(xhr.responseText);
-             }
-         }
+                 showJSON(xhr.responseText);		 
+             }			 
+		 }, false);     
      }
 
      function showJSON(students) {
